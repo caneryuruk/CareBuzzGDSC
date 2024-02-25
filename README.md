@@ -1,28 +1,12 @@
 
 # CareBuzz
-### Table of contents
-- [System requirements](#system-requirements)
-- [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
-- [Check the UI of the entire app](#app-navigations)
-- [Application structure](#project-structure)
-- [How to format your code?](#how-you-can-do-code-formatting)
-- [How you can improve code readability?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [Support](#support)
 
-### System requirements
+CareBuzz is a mobile application designed to emphasize the importance of early diagnosis and to help users keep track of their health check-up schedules. The application reminds male and female individuals of a certain age to undergo necessary screenings for potential types of cancer, highlighting the significance of early detection. Additionally, it reminds users of all ages about necessary vaccinations and regular health check-ups. CareBuzz allows users to store personal health information such as age, height, weight, and blood type. Users can also create additional profiles for themselves, their newborns, family members, or any acquaintances. Future updates will include a map feature to display nearby hospitals and pharmacies, and an artificial intelligence feature that suggests which department to visit based on the users' health complaints. The inspiration for this application came from a personal family health issue; the diagnosis of advanced breast cancer in my grandmother, which could have been preventable had regular health checks been maintained, underlining the importance of regular health monitoring. With CareBuzz, we aim to facilitate better tracking of health check-ups for users and help in the early diagnosis of potential health issues.
+
+## System requirements
 
 Dart SDK Version 2.18.0 or greater.
 Flutter SDK Version 3.3.0 or greater.
-
-### Figma design guidelines for better UI accuracy
-
-Read our guidelines to increase the accuracy of design-to-code conversion by optimizing Figma designs.
-https://docs.dhiwise.com/docs/Designguidelines/intro
-
-### Check the UI of the entire app
-
-Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
 
 ### Application structure
 After successful build, your application structure should look like this:
@@ -43,17 +27,3 @@ After successful build, your application structure should look like this:
     └── theme                       - It contains app theme and decoration classes
     └── widgets                     - It contains all custom widget classes
 ```
-### How to format your code?
-
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
-
-### How you can improve code readability?
-
-Resolve the errors and warnings that are shown in the application.
-
-### Support
-
-If you have any problems or questions, go to our Discord channel, where we will help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
