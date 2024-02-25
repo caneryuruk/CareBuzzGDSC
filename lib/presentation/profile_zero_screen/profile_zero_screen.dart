@@ -179,7 +179,7 @@ class ProfileZeroScreen extends StatelessWidget {
   /// Section Widget
   Widget _buildBottomBar(BuildContext context) {
     return CustomBottomBar(onChanged: (BottomBarEnum type) {
-      Navigator.pushNamed(navigatorKey.currentContext!, getCurrentRoute(type));
+      Navigator.pushNamed(context, getCurrentRoute(type));
     });
   }
 
@@ -187,13 +187,13 @@ class ProfileZeroScreen extends StatelessWidget {
   String getCurrentRoute(BottomBarEnum type) {
     switch (type) {
       case BottomBarEnum.Home:
-        return AppRoutes.framePage;
+        return AppRoutes.framecontinueScreen;
       case BottomBarEnum.Search:
-        return "/";
+        return AppRoutes.searchbarOneScreen;
       case BottomBarEnum.Notification01:
-        return "/";
+        return AppRoutes.notificationsScreen;
       case BottomBarEnum.Thumbsup:
-        return "/";
+        return AppRoutes.calendarScreen;
       default:
         return "/";
     }
