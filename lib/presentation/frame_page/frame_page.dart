@@ -95,7 +95,7 @@ class FramePage extends StatelessWidget {
                                         style: CustomTextStyles
                                             .labelLargeKarlaffffffff),
                                     TextSpan(
-                                        text: "Robin Stewart",
+                                        text: "Name Surname",
                                         style: theme.textTheme.headlineSmall)
                                   ]),
                                   textAlign: TextAlign.left)),

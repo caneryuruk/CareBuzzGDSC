@@ -153,7 +153,7 @@ class ProfileZeroScreen extends StatelessWidget {
                                           ImageConstant.imgLineDesignEditLine)))
                         ])),
                     SizedBox(height: 1.v),
-                    Text("Puerto Rico", style: theme.textTheme.titleLarge)
+                    Text("Name Surname", style: theme.textTheme.titleLarge)
                   ])))
         ]));
   }

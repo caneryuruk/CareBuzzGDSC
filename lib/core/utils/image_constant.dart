@@ -58,7 +58,7 @@ class ImageConstant {
 
   static String imgSettings = '$imagePath/img_settings.svg';
 
-  static String imgEllipse145130x130 = '$imagePath/img_ellipse_145_130x130.png';
+  static String imgEllipse145130x130 = '$imagePath/img_profile.jpg';
 
   static String imgLineDesignEditLine =
       '$imagePath/img_line_design_edit_line.svg';
@@ -112,19 +112,19 @@ class ImageConstant {
 
   static String imgLockBlack900 = '$imagePath/img_lock_black_900.svg';
 
-  static String imgEllipse145 = '$imagePath/img_ellipse_145.png';
+  static String imgEllipse145 = '$imagePath/img_profile.jpg';
 
   static String imgArrowdownPrimary = '$imagePath/img_arrowdown_primary.svg';
 
-  static String imgEllipse21 = '$imagePath/img_ellipse_21.png';
+  static String imgEllipse21 = '$imagePath/img_profile.jpg';
 
-  static String imgEllipse2168x68 = '$imagePath/img_ellipse_21_68x68.png';
+  static String imgEllipse2168x68 = '$imagePath/img_profile.jpg';
 
-  static String imgEllipse211 = '$imagePath/img_ellipse_21_1.png';
+  static String imgEllipse211 = '$imagePath/img_profile.jpg';
 
-  static String imgEllipse212 = '$imagePath/img_ellipse_21_2.png';
+  static String imgEllipse212 = '$imagePath/img_profile.jpg';
 
-  static String imgEllipse213 = '$imagePath/img_ellipse_21_3.png';
+  static String imgEllipse213 = '$imagePath/img_profile.jpg';
 
   static String imgHome = '$imagePath/img_home.svg';
 
